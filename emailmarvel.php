@@ -33,8 +33,8 @@
 	  $Mailer->Port = 587;
 	 
 	  //Dados do e-mail de saida - autenticação
-	  $Mailer->Username = 'd4ylightd3m0nsam@gmail.com';
-	  $Mailer->Password = '123samuca456';
+	  $Mailer->Username = 'marvelbdsup@gmail.com';
+	  $Mailer->Password = 'marvel123456';
 	  	 
 	  //E-mail remetente (deve ser o mesmo de quem fez a autenticação)
 	  $Mailer->From = 'd4ylightd3m0nsam@gmail.com';

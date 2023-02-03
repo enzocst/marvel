@@ -10,6 +10,7 @@ include_once("conexaomarvel.php");
 </head>
 <?php
 
+include('menummarvel.php');
 
 $mensg1="";
 $login="";

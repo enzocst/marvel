@@ -36,7 +36,7 @@
             echo'</table>';
         }
     ?>
-    <img src="imagens/Ordo.png" alt="QRcode_ordem" style=" max-width: 200px; max-height: 200px;">
+    <img src="imagens/Ordo.png" alt="wikimarvelucm" style=" max-width: 200px; max-height: 200px;">
     <br>
     <a href="gerarPDFmarvel.php">Gerar pdf da lista acima</a>
 </body>
