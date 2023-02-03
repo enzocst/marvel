@@ -1,6 +1,9 @@
 <html>
     <head> <title> Listar Filmes </title></head>
     <body>
+    <?php
+    include('menumarvel.php');
+    ?>
     <h1> Filmes cadastrados </h1>
     <?php 
     $busca ="";
@@ -17,8 +20,6 @@
             echo'<td>Classificação indicativa</td>';
             echo'<td>Duração</td>';
             echo'<td>Diretor</td>';
-            echo'<td>Excluir</td>';
-            echo'<td>Editar</td>';
             echo'</tr>';
 
             while($row = mysqli_fetch_assoc($resultado_sel)){
