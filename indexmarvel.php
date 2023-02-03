@@ -13,8 +13,12 @@
 
     echo "Administrador logado: " . $_SESSION['login']."";    
     ?>
-    &nbsp;&nbsp;<a href="sair.php">Sair</a>
+    &nbsp;&nbsp;<a href="sairmarvel.php">Sair</a>
+
     <body>
+        <?php
+            include('menumarvel.php');
+        ?>
     <h1> Tela de cadastro </h1>
     <form method="POST" action="gravainfomarvel.php">
     <label> Nome: </label>

@@ -9,6 +9,7 @@ include_once("conexaomarvel.php");
 </head>
 <?php
 
+
 $mensg1="";
 $login="";
 $senha="";
@@ -16,14 +17,14 @@ $senha="";
 //informa se as variáveis foram iniciadas, retornando true or false
 if((isset($_POST['login'])) && (isset($_POST['senha']))){
 	//busca no banco de dados
-	$resultado_select = "SELECT login, senha FROM administrador WHERE login='".$_POST['login']."' and senha = '".$_POST['senha']."'";
+	$resultado_select = "SELECT login, senha FROM admin WHERE login='".$_POST['login']."' and senha = '".$_POST['senha']."'";
     $resultado_usuario = mysqli_query($conn, $resultado_select);
     $resultado = mysqli_fetch_assoc($resultado_usuario);
 	//verifica se login e senha são iguais	
 	if(isset($resultado)){
 	$_SESSION['login'] = $resultado['login'];
 	 //estou redirecionando ao realizar o login        
-	header("Location: index.php");
+	header("Location: indexmarvel.php");
 	//se não forem iguais, exibe a mensagem
 	}else{
 	$mensg1 = "Usuário ou senha inválidos";
