@@ -2,8 +2,9 @@
 session_start();
 include_once("conexaomarvel.php");
 ?>
-<html >
+<html>
 <head>
+	
 <title> Cadastro de usuários</title>
 
 </head>
@@ -34,19 +35,19 @@ if((isset($_POST['login'])) && (isset($_POST['senha']))){
 ?>
 <body>
 
-      <h2> Área de login</h2> 
+      <h1>Login</h1> 
 
 <form action="" method="post" >
 
 <!-- DADOS DE LOGIN -->
 
  
-    <label for="login">Login: </label> <br>
+    <label for="login">User:</label> <br>
   
    
     <input type="text" name="login" id="login"> <br>
    
-    <label for="senha">Senha: </label> <br>
+    <label for="senha">Senha:</label> <br>
   <!--password é a máscara para ficar as bolinhas-->
        <input type="password" name="senha" id="senha">
   

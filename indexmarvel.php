@@ -1,12 +1,13 @@
-<?php
-    session_start();
-    if (empty($_SESSION['login'])){
-        header("Location: login.php");
-        }
-?>
-
 <html>
-    <head> 
+    <head>
+    <?php
+    include("conexaomarvel.php");
+        $grupo = selectAllPessoa();
+	session_start();
+		if (empty($_SESSION['login'])){
+		header("Location: loginmarvel.php");
+	}
+	?>
         <title> MARVEL </title>
     </head>
     <?php
