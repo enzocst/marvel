@@ -57,7 +57,6 @@ if((isset($_POST['login'])) && (isset($_POST['senha']))){
 <br />
 <input type="submit" value="Entrar">
 <input type="reset" value="Limpar">
-<a href="inicio.php">
 </form>
 
 </body>
