@@ -40,6 +40,8 @@
 <?php
 include('listarmarvel.php');
 ?>
+<br>
+<img src="imagens/wikimarvel.png" alt="wikimarvelucm" style=" max-width: 200px; max-height: 200px;">
 </body>
 
 

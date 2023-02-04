@@ -41,5 +41,6 @@
             echo'</table>';
         }
     ?>
+    <a href="gerarPDFmarvel.php">Gerar pdf da lista acima</a>
 </body>
     </html>
