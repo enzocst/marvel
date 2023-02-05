@@ -1,9 +1,53 @@
 <html>
 
 <head>
-    <link type="text/css" rel="stylesheet" media="screen" href="estilo.css" />
     <title>Cadastro de usuários</title>
-    <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+    <style>
+    #geral {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+		font-family: Arial;
+    }
+	body{
+		font-family: Arial;
+	}
+	h1{
+		color: #000080;
+	}
+
+    form {
+        padding: 10px 20px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px #ccc;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 10px #ccc;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+    </style>
     <?php
 
 include('menumarvel.php');

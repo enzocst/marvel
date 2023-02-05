@@ -7,7 +7,7 @@ include_once("conexaomarvel.php");
 <head>
     <style>
     body {
-        font-family: Arial,
+        font-family: Arial, sans-serif;
     }
 
     h1 {
@@ -49,6 +49,7 @@ include_once("conexaomarvel.php");
         font-size: 18px;
         margin-bottom: 20px;
 		cursor:pointer;
+		border-radius: 5px;
     }
 
     .mensagem {

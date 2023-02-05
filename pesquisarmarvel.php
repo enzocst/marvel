@@ -16,6 +16,7 @@ include('menumarvel.php');
     }
 
     h1 {
+        color: #000080;
         text-align: center;
         font-size: 32px;
         margin-top: 50px;
@@ -46,8 +47,9 @@ include('menumarvel.php');
         font-size: 20px;
         padding: 10px 20px;
         border-radius: 5px;
-        background-color: #006699;
-        color: #FFF;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
         border: none;
         cursor: pointer;
     }
