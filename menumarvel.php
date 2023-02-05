@@ -1,3 +1,32 @@
+<style>
+#menu {
+    text-align: center;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+</style>
 <nav id="menu">
 
     <ul>
@@ -25,7 +54,7 @@
 				echo "<li><a href='loginmarvel.php'>Área Restrita</a></li>";
 				//senão, apresente apenas para o administrador as seguintes páginas
 			}else  {
-				echo "<li><a href='indexmarvel.php'>Cadastro de agentes</a></li>";
+				echo "<li><a href='indexmarvel.php'>Cadastro de filmes</a></li>";
 						
 				
 			} 

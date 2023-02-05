@@ -12,6 +12,50 @@ $row_usuario       = mysqli_fetch_assoc($resultado_usuario);
 
 <head>
     <title> Alterar Filmes </title>
+    <style>
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    label,
+    input[type="text"],
+    input[type="number"],
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        width: 50%;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 20%;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    input[type="reset"] {
+        background-color: #4CAF50;
+        margin-left: 10px;
+    }
+    </style>
 </head>
 
 <body>

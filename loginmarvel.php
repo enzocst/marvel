@@ -5,7 +5,58 @@ include_once("conexaomarvel.php");
 <html>
 
 <head>
+    <style>
+    body {
+        font-family: Arial,
+    }
 
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    label {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 300px;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+		padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 20px;
+		cursor:pointer;
+    }
+
+    .mensagem {
+        color: red;
+        font-size: 20px;
+        text-align: center;
+    }
+    </style>
     <title> Cadastro de usuários</title>
 
 </head>

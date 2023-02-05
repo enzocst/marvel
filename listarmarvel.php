@@ -2,6 +2,49 @@
 
 <head>
     <title> Listar Filmes </title>
+    <style>
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    h1 {
+        color: #000080;
+        margin-top: 50px;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+        width: 60%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #000080;
+        color: white;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    a {
+        color: #000080;
+        text-decoration: none;
+        margin-top: 20px;
+        display: block;
+    }
+    </style>
 </head>
 
 <body>

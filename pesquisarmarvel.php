@@ -9,6 +9,79 @@ include('menumarvel.php');
 
 <head>
     <title>Lista de filmes</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #F0F0F0;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    form label {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    form input[type="text"] {
+        font-size: 20px;
+        padding: 10px;
+        width: 500px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    form input[type="submit"] {
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #006699;
+        color: #FFF;
+        border: none;
+        cursor: pointer;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 50px;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    table td,
+    table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    table tr:hover {
+        background-color: #ddd;
+    }
+
+    table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #006699;
+        color: white;
+    }
+    </style>
+
 </head>
 
 <body>
@@ -17,7 +90,6 @@ include('menumarvel.php');
     <h1>Pesquisar filmes</h1>
 
     <form method="POST" action="">
-        <label>Nome:</label>
         <input type="text" name="nome" placeholder="Qual filme está procurando?"><br><br>
         <input name="pesquisar" type="submit" value="Pesquisar">
     </form><br><br>
