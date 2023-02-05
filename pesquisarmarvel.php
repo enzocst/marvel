@@ -5,24 +5,25 @@ include('menumarvel.php');
 	
 ?>
 
-<html >
-	<head>
-		<title>Lista de filmes</title>
-	</head>
+<html>
 
-	<body>
-	  
-	  
-	 <h1>Pesquisar filmes</h1>
-		
-		<form method="POST" action="">
-			<label>Nome:</label>
-			<input type="text" name="nome" placeholder="Qual filme está procurando?"><br><br>
-			<input name="pesquisar" type="submit" value="Pesquisar">
-		</form><br><br>
-	  </form>
-		
-		<?php
+<head>
+    <title>Lista de filmes</title>
+</head>
+
+<body>
+
+
+    <h1>Pesquisar filmes</h1>
+
+    <form method="POST" action="">
+        <label>Nome:</label>
+        <input type="text" name="nome" placeholder="Qual filme está procurando?"><br><br>
+        <input name="pesquisar" type="submit" value="Pesquisar">
+    </form><br><br>
+    </form>
+
+    <?php
 		
 		$pesquisar = filter_input(INPUT_POST, 'pesquisar', FILTER_SANITIZE_STRING);
 		if($pesquisar){
@@ -62,13 +63,14 @@ include('menumarvel.php');
             }
             echo'</table>';
 		    ?>
-			  		
-<tr>
-<td><a href="indexmarvel.php"><input type="button" value="Cadastrar" ></a></td>
 
-<td><a href="indexmarvel.php"><input type="button" value="Voltar" ></a></td>
-</tr>
+    <tr>
+        <td><a href="indexmarvel.php"><input type="button" value="Cadastrar"></a></td>
 
-</table>
-    </body>
+        <td><a href="indexmarvel.php"><input type="button" value="Voltar"></a></td>
+    </tr>
+
+    </table>
+</body>
+
 </html>

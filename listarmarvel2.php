@@ -1,6 +1,10 @@
 <html>
-    <head> <title> Listar Filmes </title></head>
-    <body>
+
+<head>
+    <title> Listar Filmes </title>
+</head>
+
+<body>
     <?php
     include('menumarvel.php');
     ?>
@@ -40,4 +44,5 @@
     <br>
     <a href="gerarPDFmarvel.php">Gerar pdf da lista acima</a>
 </body>
-    </html>
+
+</html>

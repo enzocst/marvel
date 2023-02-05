@@ -1,6 +1,10 @@
 <html>
-    <head> <title> Listar Filmes </title></head>
-    <body>
+
+<head>
+    <title> Listar Filmes </title>
+</head>
+
+<body>
     <h1> Filmes cadastrados </h1>
     <?php 
     $busca ="";
@@ -43,4 +47,5 @@
     ?>
     <a href="gerarPDFmarvel.php">Gerar pdf da lista acima</a>
 </body>
-    </html>
+
+</html>

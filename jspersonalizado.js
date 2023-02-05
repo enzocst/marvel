@@ -1,20 +1,20 @@
-$(function(){
+$(function () {
 	//Pesquisar os cursos sem refresh na página
-	$("#pesquisa").keyup(function(){
-		
+	$("#pesquisa").keyup(function () {
+
 		var pesquisa = $(this).val();
-		
+
 		//Verificar se há algo digitado
-		if(pesquisa != ''){
+		if (pesquisa != '') {
 			var dados = {
-				palavra : pesquisa
-			}		
-			$.post('buscarmarvel.php', dados, function(retorna){
+				palavra: pesquisa
+			}
+			$.post('buscarmarvel.php', dados, function (retorna) {
 				//Mostra dentro da ul os resultado obtidos 
 				$(".resultado").html(retorna);
 			});
-		}else{
+		} else {
 			$(".resultado").html('');
-		}		
+		}
 	});
 });
