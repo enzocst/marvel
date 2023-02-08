@@ -34,13 +34,13 @@
 
         <li>
 
-            <a href="listarmarvel2.php">Listar usuários </a>
+            <a href="listarmarvel2.php">Listar Filmes</a>
 
         </li>
 
         <li>
 
-            <a href="pesquisarmarvel.php">Pesquisar usuários </a>
+            <a href="pesquisarmarvel.php">Pesquisar filmes</a>
 
         </li>
 
