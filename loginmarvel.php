@@ -58,7 +58,7 @@ include_once("conexaomarvel.php");
         text-align: center;
     }
     </style>
-    <title> Cadastro de usuários</title>
+    <title> Cadastro de filmes</title>
 
 </head>
 <?php

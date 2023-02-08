@@ -130,8 +130,8 @@ include('menumarvel.php');
                 echo'<td>'.$row['diretor'].'</td>';
 
 				if (!empty($_SESSION['login'])){ 
-                echo "<td><a href='excluir.php?tipo=2&id=" . $row['id'] . "'><img src='imagens/del.png' width='20' height='20' title='Excluir' /></td>";
-                echo "<td><a href='editar.php?tipo=2&id=". $row['id'] ."'/><img src='imagens/edit.png' width='20' height='20' title='Alterar' /></td>";
+                echo "<td><a href='excluir.php?tipo=2&id=" . $row['id'] . "'><img src='imagens/excl.png' width='20' height='20' title='Excluir' /></td>";
+                echo "<td><a href='editar.php?tipo=2&id=". $row['id'] ."'><img src='imagens/editar.png' width='20' height='20' title='Alterar' /></td>";
                 }
             }
             }
