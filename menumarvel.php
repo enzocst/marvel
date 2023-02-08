@@ -34,7 +34,7 @@
 
         <li>
 
-            <a href="listarmarvel2.php">Listar Filmes</a>
+            <a href="listarmarvel2.php">Listar filmes</a>
 
         </li>
 
